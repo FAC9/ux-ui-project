@@ -1,4 +1,4 @@
-# ux-ui-week
+# UX/UI project
 
 Team: Peter, Nori, Lucy, Esraa
 

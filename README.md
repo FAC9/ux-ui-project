@@ -20,16 +20,18 @@ It would be ideal if you could talk us through what you’re doing and tell us a
 We’d love any thoughts and feedback you may have afterwards as well. 
 
 ### Testing notes
-DON’T SHARE THIS WITH TESTERS!
-What do we want to find out?
-Is there a clear call to action on the landing page?
-Is there a clear journey through the app?
-If they have trouble, can they get help?
-Is it clear if they’ve sent a message or completed a payment?
-Can they log out?
-Are there any pain points? Is anything unclear?
-Probably the most awkward part of the process is the page immediately after login - make careful notes on what they think of this, whether they struggle to understand what’s required of them?
-Does the interface inspire confidence?
+
+**DON’T SHARE THIS WITH TESTERS!**
+
+- What do we want to find out?
+- Is there a clear call to action on the landing page?
+- Is there a clear journey through the app?
+- If they have trouble, can they get help?
+- Is it clear if they’ve sent a message or completed a payment?
+- Can they log out?
+- Are there any pain points? Is anything unclear?
+- Probably the most awkward part of the process is the page immediately after login - make careful notes on what they think of this, whether they struggle to understand what’s required of them?
+- Does the interface inspire confidence?
 
 ### Feedback from our testers
 

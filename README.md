@@ -99,8 +99,6 @@ We’d love any thoughts and feedback you may have afterwards as well.
   - No warning or sense of urgency for me to pay.
   - It feels like you are my parent telling me off.
   - Being more friendly on the app.
-  - She is still amazing :D 
-
 
 ### Conclusions from user testing
 

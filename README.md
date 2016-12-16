@@ -23,6 +23,7 @@ We’d love any thoughts and feedback you may have afterwards as well.
 
 **DON’T SHARE THIS WITH TESTERS!**
 
+- Record every user screen, to detecct their cursor movement,and figure out where they struggle
 - What do we want to find out?
 - Is there a clear call to action on the landing page?
 - Is there a clear journey through the app?
@@ -106,3 +107,6 @@ We’d love any thoughts and feedback you may have afterwards as well.
 - logout button on every page (not messages).
 - Back arrow from paypal and VISA payment pages.
 - additional and friendlier page between login and payment page -> E.g. remind them why training was great
+- The back arrow on the page where you have submitted a message is at the bottom rather than the top left (which is where it is on the other pages). This needs to be moved to the top left. You can see from the user testing video below that the user instinctively reached for the button at the top, only to find that it wasn't there!  
+[User insight video](https://www.youtube.com/embed/BZbBm7N1pLc)
+

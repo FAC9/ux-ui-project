@@ -11,7 +11,7 @@ You can find a prototype of our website [here](https://xd.adobe.com/view/f3419bb
 
 ## Conclusions from user testing
 
-- bar graph is a disaster -> we should make a progess bar od dots instead.
+- bar graph is a disaster -> we should make a progess bar or dots instead.
 - logout button on every page (not messages).
 - Back arrow from paypal and VISA payment pages.
 - additional and friendlier page between login and payment page -> E.g. remind them why training was great

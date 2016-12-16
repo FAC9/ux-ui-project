@@ -56,7 +56,7 @@ We’d love any thoughts and feedback you may have afterwards as well.
   - She misses colours :D . It is a UX test that is why we don’t have colours.
   - She likes the flow but she really misses colours :D 
 
-- **Tester 3 **
+- **Tester 3**
 
   - IPhone user
   - There is nothing telling him that it is a password field (add labels to the password and input field ). 

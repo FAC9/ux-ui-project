@@ -1,22 +1,25 @@
-*{
-  margin:0;
-}
-
-nav, ul {
+nav {
   border: black 1px solid;
   text-align:center;
-
 }
 
+ul{
+  height:10vh;
+  border: black 1px solid;
+}
 .nav__li {
   list-style-type: none;
+  border: black 1px solid;
   display: inline;
+  padding:1em 1em 1em 1em;
 }
 
 footer {
+  margin:0;
   position: fixed;
   bottom:0;
   width:100%;
   background-color:orange;
   padding:1em;
+  text-align:center;
 }

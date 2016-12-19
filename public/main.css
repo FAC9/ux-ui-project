@@ -1,6 +1,7 @@
 #container {
   height: 100%;
   width: 100%;
+  font-family: 'Roboto Slab', serif;
 }
 
 nav {
@@ -11,10 +12,15 @@ nav {
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color:black;
+}
+
 .nav__back {
   float:left;
   margin-left: 10px;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 .nav__logout {
@@ -26,6 +32,35 @@ nav {
 #nav__title {
   padding-top: 20px;
   font-size: 24px;
+}
+
+.fa-arrow-left{
+  color:#FFF;
+}
+
+.payments{
+  background-color: #A2A7A5;
+  border: black solid 1px;
+  height: 85px;
+  width:90%;
+  margin:0 auto;
+}
+
+.fake-table {
+  width:90%%;
+  margin:0 auto;
+  clear:both;
+  padding:0.5em;
+}
+
+.table-key{
+  width:45%;
+  float:left;
+}
+
+.table-value{
+  width:45%;
+  float:right;
 }
 
 footer {

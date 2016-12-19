@@ -6,15 +6,34 @@
     <title>Chef Pay</title>
     <link rel="stylesheet" href="./normalize.css" type="text/css">
     <link rel="stylesheet" href="./main.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
   <body>
     <div id="container">
       <nav>
         <div id="nav__title" class="nav__li">ChefPay</div>
-        <div class="nav__element nav__back">back</div> <!--add font awesome icon back arrow here-->
+        <div class="nav__element nav__back"><a href="#"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a></div> <!--add font awesome icon back arrow here-->
         <div class="nav__element nav__logout">logout</div>
       </nav>
+      <h2>Hello John</h2>
+      <div class="payments">
+        <div class="fake-table">
+          <label class="table-key" for="installment">Next payment:</label>
+          <input class="table-value" type="text" name="name" id="installment" value="">
+        </div>
+        <!--Cure our divitis at some point :D-->
+        <div class="fake-table">
+          <div class="table-key">Payment due:</div>
+          <div class="table-value">xxxx.xx.xx</div>
+        </div>
+        <div class="fake-table">
+          <div class="table-key">Total paid:</div>
+          <div class="table-value">0000</div>
+        </div>
+      </div>
+
       <footer>Made by Oh-Auth</footer>
     </div>
+    <script src="https://use.fontawesome.com/dab6567ebf.js"></script>
   </body>
 </html>

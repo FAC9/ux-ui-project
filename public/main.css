@@ -90,8 +90,18 @@ a {
 
 h2 {
   margin-top: 40px;
+  font-size: 2em;
   text-align: center;
   color: #666;
+}
+
+.blink {
+  animation: blinker 1s linear 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes blinker {
+  100% { opacity: 0; }
 }
 
 .payments, .payment-progress {
@@ -125,6 +135,14 @@ h2 {
   border-radius: 5px;
 }
 
+.welcome {
+  height: auto;
+}
+
+.payment-progress__welcome {
+  height: auto;
+}
+
 h3, h4 {
   color:#666;
   margin:10px 10px 0px 10px;
@@ -135,16 +153,16 @@ h4 {
 }
 
 p {
-  margin:10px 10px 0px 10px;
+  margin:10px 10px 10px 10px;
+  font-size: 1em;
 }
 
 #chart_div {
   margin-top: 10px;
-  margin-left: 10px;
 }
 
 .payment__buttons {
-  margin-top:30px;
+  margin-top: 30px;
   margin-left: 10%;
   height: 95px;
   width:80%;
@@ -161,6 +179,15 @@ p {
   border: none;
 }
 
+.payment-detail__button {
+  position:fixed;
+  margin-top: 5vh;
+  left: 50%;
+  margin-left: -100px;
+  width: 200px;
+  padding-bottom: 15px;
+}
+
 footer {
   margin:0;
   position:fixed;
@@ -170,4 +197,21 @@ footer {
   padding:1em 0 1em 0;
   text-align:center;
   color:#666;
+}
+
+@media (max-width: 320px) {
+  #container {
+    height: 80%;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-top: 15px;
+  }
+
+  .payment-detail__button {
+    position:fixed;
+    margin-top: 2vh;
+  }
+
 }

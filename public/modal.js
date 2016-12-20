@@ -8,7 +8,9 @@ let btn = document.getElementsByClassName("modalButton")[0];
 let span = document.getElementsByClassName("close")[0];
 
 // When the user clicks on the button, open the modal
+  console.log('page is hooked up')
 btn.onclick = function() {
+  console.log('pressed');
     modal.style.display = "block";
 }
 

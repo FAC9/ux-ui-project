@@ -197,6 +197,7 @@ footer {
   padding:1em 0 1em 0;
   text-align:center;
   color:#666;
+  -webkit-box-shadow: 0 0 10px #ccc;
 }
 
 @media (max-width: 320px) {

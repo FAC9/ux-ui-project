@@ -62,9 +62,9 @@ nav {
   color: white;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
-  color:black;
+  color:white;
 }
 
 .nav__back {
@@ -77,6 +77,7 @@ a {
   float:right;
   margin-right: 10px;
   margin-top: -15px;
+  color:white;
 }
 
 #nav__title {
@@ -238,6 +239,26 @@ footer {
 
   #chart_div {
     margin-left: 0px;
+  }
+
+}
+
+
+@media (min-width: 700px) {
+
+  .body {
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    border: solid 1px #666;
+  }
+
+  footer {
+    width: 360px;
+  }
+
+  .payment__buttons {
+    margin-top: 10px;
   }
 
 }

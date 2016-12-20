@@ -6,15 +6,49 @@
     <title>Chef Pay</title>
     <link rel="stylesheet" href="./normalize.css" type="text/css">
     <link rel="stylesheet" href="./main.css" media="screen" title="no title">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   </head>
   <body>
     <div id="container">
       <nav>
         <div id="nav__title" class="nav__li">ChefPay</div>
-        <div class="nav__element nav__back">back</div> <!--add font awesome icon back arrow here-->
+        <div class="nav__element nav__back"><a href="#"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a></div> <!--add font awesome icon back arrow here-->
         <div class="nav__element nav__logout">logout</div>
       </nav>
+      <h2>Hello John</h2>
+      <section class="payments">
+        <div class="fake-table">
+          <label class="table-key" for="installment">Next payment:</label>
+          <input class="table-value" type="text" name="name" id="installment" value="">
+        </div>
+        <!--Cure our divitis at some point :D-->
+        <div class="fake-table">
+          <div class="table-key">Payment due:</div>
+          <div class="table-value">xx.xx.xxxx</div>
+        </div>
+        <div class="fake-table">
+          <div class="table-key">Total paid:</div>
+          <div class="table-value">0000</div>
+        </div>
+      </section>
+
+      <section class="payment-progress">
+        <h3>How much have I paid?</h3>
+        <p>With this month’s payment, your total will be £1950!</p>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <div id="chart_div"></div>
+        <h4>Having trouble paying?</h4>
+        <p>Get in touch by instant message to work out a new payment plan</p>
+      </section>
+
+      <section class="payment__buttons">
+        <div class="buttons buttons--left">Pay with VISA</div>
+        <div class="buttons buttons--right">Pay with Paypal</div>
+      </section>
+
       <footer>Made by Oh-Auth</footer>
     </div>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://use.fontawesome.com/dab6567ebf.js"></script>
   </body>
 </html>

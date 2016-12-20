@@ -1,3 +1,7 @@
+body {
+  font-family: lato;
+}
+
 h1 {
   margin-bottom: 5px;
 }
@@ -28,6 +32,7 @@ form ul {
   width: 370px;
   margin-top: 5%;
   border: 2px solid black;
+  border-radius: 10%;
   margin-bottom: 30px;
 }
 

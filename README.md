@@ -1,6 +1,6 @@
 # UX/UI project
 
-Team: Peter, Nori, Lucy, Esraa
+Team: Peter, Nóri, Lucy, Esraa
 
 A place to store our group project for the UX and UI week
 

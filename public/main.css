@@ -159,6 +159,7 @@ p {
 
 #chart_div {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .payment__buttons {
@@ -199,9 +200,9 @@ footer {
   color:#666;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
   #container {
-    height: 80%;
+    height: 75%;
   }
 
   h2 {
@@ -209,9 +210,34 @@ footer {
     margin-top: 15px;
   }
 
+  .payments {
+    font-size: 0.8em;
+    height: 75px;
+  }
+
+  .payment-progress {
+    height: 230px;
+  }
+
   .payment-detail__button {
     position:fixed;
     margin-top: 2vh;
+  }
+
+  .payment__buttons {
+    margin-top: 10px;
+  }
+
+  .buttons {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  #chart_div {
+    margin-left: 0px;
   }
 
 }

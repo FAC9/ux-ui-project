@@ -17,8 +17,8 @@ function drawChart() {
 
   // Set chart options
   var options = {
-    width: 255,
-    height: 70,
+    width: 290,
+    height: 80,
     legend: { position: 'top', maxLines: 3 },
     bar: { groupWidth: '75%' },
     isStacked: 'percent'

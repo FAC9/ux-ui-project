@@ -10,10 +10,12 @@
 <body>
   <div class="chefpay-login">
     <div class="title">
-      <h1>Welcome to Chef Pay</h1>
+      <h1>Welcome to ChefPay</h1>
     </div>
     <fieldset>
+
       <legend>Login</legend>
+
       <form class="login" action="/login" method="post">
         <div class="login-div">
           <div class="label-div">
@@ -23,6 +25,7 @@
             <input type="text" id="login-email" placeholder="john.doe@gmail.com" name="name" value="" required="required">
           </div>
         </div>
+
         <div class="password-div">
           <div class="label-div">
             <label for="login-password">Password</label>
@@ -31,7 +34,9 @@
             <input type="text" id="login-password" placeholder="Password" name="name" value="" required="required">
           </div>
         </div>
-        <a href="./landing.html"><button type="submit" name="button">Let me in</button></a>
+
+        <a href="./landing.html"><div class="login__button">Let me in</div></a>
+
       </form>
     </fieldset>
   </div>

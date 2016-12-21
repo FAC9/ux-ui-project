@@ -11,14 +11,14 @@ function drawChart() {
 
   // Create the data table.
   var data = google.visualization.arrayToDataTable([
-  ['£3000', 'Paid', 'Yet to pay', { role: 'annotation' } ],
+  ['£3000', 'Paid', 'Yet...', { role: 'annotation' } ],
   ['£3000', 1700, 1300, '']
 ]);
 
   // Set chart options
   var options = {
-    width: 255,
-    height: 70,
+    width: 290,
+    height: 80,
     legend: { position: 'top', maxLines: 3 },
     bar: { groupWidth: '75%' },
     isStacked: 'percent'

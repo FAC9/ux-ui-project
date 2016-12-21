@@ -189,7 +189,10 @@ p {
   width: 200px;
   padding-bottom: 15px;
 }
-
+.payment-detail__div{
+  width:100%;
+  clear:both;
+}
 footer {
   margin:0;
   position:fixed;

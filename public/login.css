@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-attachment: fixed
+  background-attachment: fixed;
   color:#383634;
     background-image: -webkit-gradient(
         linear,
@@ -29,19 +29,19 @@ body {
 .chefpay-login{
   background-color: white;
   border-radius: 5px;
-  width: 70%;
-  height: 80%;
-  margin: 10em auto;
+  width: 90%;
+  height: 85%;
+  margin: 1em auto;
 }
 
 .title {
-  padding:2.5em 1.5em 1.5em 1.5em;
+  padding:1em .5em .5em .5em;
 }
 
 h1 {
   text-align: center;
-  font-size: 3.75em;
-  padding: 0.3em;
+  font-size: 2.5em;
+  padding: 0.2em;
   margin: 0 auto;
   /*border: 5px solid black;*/
   /*background-color: #b21807;*/
@@ -56,32 +56,41 @@ h1 {
 
 fieldset {
   border:0;
+  margin:0 auto;
+  -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0em;
+    -webkit-padding-start: 0em;
+    -webkit-padding-end: 0em;
+    -webkit-padding-after: 0em;
+        min-width: inherit;
 }
 
 legend {
-  font-size: 2em;
+  font-size: 1.75em;
   font-weight: bold;
   text-align: center;
 }
 
 .login-div, .password-div {
   padding:0.5em;
+  clear:both;
 }
 
 input, label {
   border-radius:0.5em;
   line-height: 1.7em;
-  font-size: 2em;
+  font-size: 1.25em;
+  width:90%;
 }
 
 .login__button {
-  width: 200px;
+  width: 8em;
   margin: auto;
   background-color: #666;
-  border-radius: 5px;
-  height:50px;
-  margin-top: 110px;
-  padding-top: 15px;
+  border-radius: 2em;
+  height:3em;
+  padding: 0.5em;
   color: white;
 }
 
@@ -101,7 +110,7 @@ label {
 
 form {
   text-align: center;
-  padding-bottom: 2.5em;
+  padding-bottom: 1.5em;
 }
 
 .label-div, .input-div {
@@ -110,8 +119,21 @@ form {
 
 @media only screen and (min-width: 1024px) {
 
+
+
+  .chefpay-login{
+    background-color: white;
+    border-radius: 5px;
+    width: 70%;
+    height: 90%;
+    margin: 5em auto;
+  }
+
   h1 {
     font-size: 2.5em;
+  }
+  .title {
+    padding:2.5em 1.5em 1.5em 1.5em;
   }
 
   legend {
@@ -136,6 +158,11 @@ form {
   div > input{
     float:left;
     width:60%;
+  }
+
+  .fake{
+    clear:both;
+    padding:1em;
   }
 
 }

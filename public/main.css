@@ -136,6 +136,12 @@ h2 {
   border-radius: 5px;
 }
 
+.table-value__input-field {
+  width: 35%;
+  border-radius: 5px;
+  margin-left: 2px;
+} 
+
 .welcome {
   height: auto;
 }

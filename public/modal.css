@@ -1,11 +1,7 @@
-body {
-  font-family: lato;
-}
-
 .modalButton {
   position: fixed;
   bottom: 26px;
-  right: 500px;
+  right: 39%;
   background-color: #bfc6d0;
   width: 110px;
   height: 35px;
@@ -18,7 +14,7 @@ body {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 6vh; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -33,7 +29,6 @@ body {
     position: relative;
     background-color: #fefefe;
     margin: auto;
-    padding: 0;
     border: 1px solid #888;
     width: 340px;
     height: 535px;
@@ -41,7 +36,7 @@ body {
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
-    animation-duration: 0.4s
+    animation-duration: 0.4s;
 }
 
 /* Add Animation */
@@ -82,12 +77,14 @@ body {
 }
 
 .write-your-name {
+  resize: none;
   padding: 8px;
   width: 287px;
   height: 15px;
 }
 
 .write-your-message {
+  resize: none;
   padding: 8px;
   width: 287px;
   height: 250px;

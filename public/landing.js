@@ -11,7 +11,7 @@ function drawChart() {
 
   // Create the data table.
   var data = google.visualization.arrayToDataTable([
-  ['£3000', 'Paid', 'Yet to pay', { role: 'annotation' } ],
+  ['£3000', 'Paid', 'Yet...', { role: 'annotation' } ],
   ['£3000', 1700, 1300, '']
 ]);
 

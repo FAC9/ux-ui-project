@@ -3,14 +3,14 @@ h1 {
 }
 
 .visa-logo {
-  width: 90px;
-  margin-bottom: -5px;
+  margin-top: 0.5em;
+  width: 35%;
 }
 
 .paypal-logo {
-  margin-top: 10px;
-  width: 160px;
-  padding: 10px 33px 0 0;
+  margin-top: 0.5em;
+  padding:1em;
+  width: 55%;
 }
 
 form ul {
@@ -18,30 +18,41 @@ form ul {
 }
 
 .submit-payment-button {
-  height: 30px;
+  font-size: 3.5em;
 }
 
 .payment-div {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 370px;
+  width: 80%;
   margin-top: 5%;
   border: 2px solid black;
-  border-radius: 5px;
-  margin-bottom: 30px;
+  border-radius: 15%;
+  margin-top:3em;
 }
 
 form ul li {
-  text-align: right;
-  margin-top: 15px;
-  padding-right: 25%;
-  padding-bottom: -5px;
+  text-align: center;
+  padding: 1em 1em;
+}
+h1{
+  font-size: 4em;
+}
+form ul li label {
+  font-size:4em;
+  margin:0.5em 0.5em;
+}
+form ul li input {
+  font-size:4em;
+  margin:0.5em 0.5em;
+  width: 60%;
+  border:0.1em black solid;
 }
 
 button {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 #container {
